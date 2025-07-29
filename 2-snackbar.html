@@ -1,26 +1,41 @@
-<!DOCTYPE html><html lang=en><script type=module src=/1-timer.3f721895.js></script><link rel=stylesheet href=/2-snackbar.801d12c6.css><meta charset=UTF-8><meta name=viewport content="width=device-width, initial-scale=1.0"><title>snackbar</title><link rel=stylesheet href=/2-snackbar.5e99201f.css><script type=module src=/2-snackbar.b3f6eac1.js></script><body>
-  <a href=/index.html>❮Go back</a>
-  <div class=container>
-    <form class=form>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>snackbar</title>
+  <script type="module" crossorigin src="/goit-js-hw-10/2-snackbar.js"></script>
+  <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/modulepreload-polyfill-B5Qt9EMX.js">
+  <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/vendor-BbbuE1sJ.js">
+  <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/vendor-CZjNVMTf.css">
+  <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/2-snackbar-DSrOrNk2.css">
+</head>
+
+<body>
+  <a href="./index.html">❮Go back</a>
+  <div class="container">
+    <form class="form">
       <label>
         Delay (ms)
-        <input type=number name=delay required>
+        <input type="number" name="delay" required />
       </label>
 
       <fieldset>
         <legend>State</legend>
         <label>
-          <input type=radio name=state value=fulfilled required>
+          <input type="radio" name="state" value="fulfilled" required />
           Fulfilled
         </label>
         <label>
-          <input type=radio name=state value=rejected required>
+          <input type="radio" name="state" value="rejected" required />
           Rejected
         </label>
       </fieldset>
 
-      <button>Create notification</button>
+      <button type="submit">Create notification</button>
     </form>
   </div>
+</body>
 
-
+</html>
